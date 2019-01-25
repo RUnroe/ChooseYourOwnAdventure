@@ -1,0 +1,59 @@
+*{
+    text-align: center;
+}
+body{
+    background-color: #ffdfa0 ;
+}
+#main{
+    background-image:url("images/paper.png");
+    border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 25%;
+    margin-right: 25%;
+    height:800px;
+    padding:15px 15px 100px 15px;
+}
+
+#appTitle {
+
+    font-family:Verdana;
+    font-size:40px;
+    padding-bottom: 30px;
+    font-weight:bold;
+}
+
+#pageTitle{
+    font-size: 25px;
+    
+}
+
+#pageStory{
+    font-size: 25px;
+    
+}
+
+#pageNumber{
+    font-size: 25px;
+}
+
+#pagePicture{
+    border:solid black 2px;
+    height:500px;
+    width:650px;
+}
+
+button{
+    padding:15px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    border: solid #444444 1px;
+    background-color:#555555;
+    border-radius: 8px;
+            
+}
+ button:hover{
+    background-color:#434343;
+}

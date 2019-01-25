@@ -1,0 +1,216 @@
+[
+    {    
+        "title":"At Sea in Search of Treasure",
+        "picture":"images/ship.jpg",
+        "story":"You are at sea looking for lost treasure on a hidden island. There is a small storm is ahead.",
+        "number":"Page 1",
+        "button":[
+            {"text":"Go Left Around the Storm", "pageNumber": "Page 2"},
+            {"text":"Go Through the Storm", "pageNumber": "Page 3"},
+            {"text":"Go Right Around the Storm", "pageNumber": "Page 4"}
+            ]
+    },
+    {    
+        "title":"Left of the Storm",
+        "picture":"images/ship.jpg",
+        "story":"You went left around the storm and became lost. What do you do?",
+        "number":"Page 2",
+        "button":[
+            {"text":"Turn Around", "pageNumber": "Page 5"},
+            {"text":"Keep Sailing", "pageNumber": "Page 5"}
+            ]
+    },
+    {    
+        "title":"Through the Storm",
+        "picture":"images/storm.jpg",
+        "story":"You barely made it through the storm. You see two islands: one straight ahead and one to the right. Where do you go?",
+        "number":"Page 3",
+        "button":[
+            {"text":"Straight Ahead", "pageNumber": "Page 6"},
+            {"text":"Right", "pageNumber": "Page 10"}
+            ]
+    },
+    {    
+        "title":"Right of the Storm",
+        "picture":"images/ship.jpg",
+        "story":"You see an island ahead of you. Where do you go?",
+        "number":"Page 4",
+        "button":[
+            {"text":"To the Island", "pageNumber": "Page 10"},
+            {"text":"Keep Sailing", "pageNumber": "Page 6"}
+            ]
+    },
+    {    
+        "title":"Lost For Good",
+        "picture":"images/ship.jpg",
+        "story":"You are lost and run out of food. You and your crew die.",
+        "number":"Page 5",
+        "button":[
+            {"text":"Start Over", "pageNumber": "Page 1"}
+            ]
+    },
+    {    
+        "title":"Small Island",
+        "picture":"images/smallIsland.jpg",
+        "story":"You land on a small island in hopes that the treasure is here. It is starting to get dark. What do you do?",
+        "number":"Page 6",
+        "button":[
+            {"text":"Search for Treasure", "pageNumber": "Page 7"},
+            {"text":"Build Shelter", "pageNumber": "Page 8"}
+            ]
+    },
+    {    
+        "title":"Caught",
+        "picture":"images/caught.jpg",
+        "story":"You search for the treasure through the night. A native tribe captures you and kills you.",
+        "number":"Page 7",
+        "button":[
+            {"text":"Start Over", "pageNumber": "Page 1"}
+            ]
+    },
+    {    
+        "title":"Shelter",
+        "picture":"images/shelter.jpg",
+        "story":"You build shelter and sleep through the night. You get up the next morning.",
+        "number":"Page 8",
+        "button":[
+            {"text":"Search for Treasure", "pageNumber": "Page 9"},
+            {"text":"Go to other island", "pageNumber": "Page 10"}
+            ]
+    },
+    {    
+        "title":"Treasure",
+        "picture":"images/bone.png",
+        "story":"You find a big red X and start digging. All you found were bones.",
+        "number":"Page 9",
+        "button":[
+            {"text":"Go to other island", "pageNumber": "Page 10"}
+            ]
+    },
+     {    
+        "title":"Big Island",
+        "picture":"images/bigIsland.png",
+        "story":"You land on a large island. What do you do first?",
+        "number":"Page 10",
+        "button":[
+            {"text":"Build a Shelter", "pageNumber": "Page 11"},
+            {"text":"Look for food", "pageNumber": "Page 12"},
+            {"text":"Look for the Treasure", "pageNumber": "Page 13"}
+            ]
+    },
+    {    
+        "title":"Shelter",
+        "picture":"images/shelter.jpg",
+        "story":"You build a shelter and spend the night in it. You get up the next day ready to look for treasure. Do you start left or right?",
+        "number":"Page 11",
+        "button":[
+            {"text":"Look Left", "pageNumber": "Page 17"},
+            {"text":"Look Right", "pageNumber": "Page 16"}
+            ]
+    },
+    {    
+        "title":"Food Hunt",
+        "picture":"images/dark.jpg",
+        "story":"You spend the rest of the day hunting. You are lost in the dark. What do you do?",
+        "number":"Page 12",
+        "button":[
+            {"text":"Wander", "pageNumber": "Page 21"},
+            {"text":"Build a Fire", "pageNumber": "Page 22"}
+            ]
+    },
+    {    
+        "title":"Treasure Hunt",
+        "picture":"images/xDark.jpg",
+        "story":"You spend the rest of the day looking for treasure. It becomes dark, but you find something resembling an X. What do you do?",
+        "number":"Page 13",
+        "button":[
+            {"text":"Dig", "pageNumber": "Page 15"},
+            {"text":"Go back to ship", "pageNumber": "Page 14"}
+            ]
+    },
+    {    
+        "title":"Going Back",
+        "picture":"images/caught.jpg",
+        "story":"You are on your way back to the ship when you fall in a trap. A native tribe comes and takes you.",
+        "number":"Page 14",
+        "button":[
+            {"text":"Start Over", "pageNumber": "Page 1"}
+            ]
+    },
+    {    
+        "title":"Dig",
+        "picture":"images/caught.jpg",
+        "story":"You dig and find the treasure! You take the chest out and start to drag it to the ship, creating a lot of noise. You are heard by a native tribe and attacked.",
+        "number":"Page 15",
+        "button":[
+           {"text":"Start Over", "pageNumber": "Page 1"}
+            ]
+    },
+    {    
+        "title":"Look Right",
+        "picture":"images/forest.jpg",
+        "story":"You start by looking to the right but are unsuccessful. What do you do?",
+        "number":"Page 16",
+        "button":[
+            {"text":"Look Left", "pageNumber": "Page 17"},
+            {"text":"Go Back to Your Shelter", "pageNumber": "Page 18"}
+            ]
+    },
+    {    
+        "title":"Look Left",
+        "picture":"images/x.jpg",
+        "story":"You start by looking to the left and find something resembling an X. What do you do?",
+        "number":"Page 17",
+        "button":[
+            {"text":"Dig", "pageNumber": "Page 19"},
+            {"text":"Go Back to Your Shelter", "pageNumber": "Page 18"}
+            ]
+    },
+    {    
+        "title":"Back to Shelter",
+        "picture":"images/caught.jpg",
+        "story":"You go back to your shelter and see people in it. A native tribe has found it and have been waiting for you to get back. They spot you and hunt you down.",
+        "number":"Page 18",
+        "button":[
+            {"text":"Start Over", "pageNumber": "Page 1"}
+            ]
+    },
+    {    
+        "title":"Dig",
+        "picture":"images/treasure.jpg",
+        "story":"You start digging and find a treasure chest. Where do you take it?",
+        "number":"Page 19",
+        "button":[
+            {"text":"Shelter", "pageNumber": "Page 18"},
+            {"text":"Ship", "pageNumber": "Page 20"}
+            ]
+    },
+    {    
+        "title":"VICTORY",
+        "picture":"images/ship.jpg",
+        "story":"You safely made it back to your ship with the treasure!",
+        "number":"Page 20",
+        "button":[
+            {"text":"Play again!", "pageNumber": "Page 1"}
+            ]
+    },
+     {    
+        "title":"Wander",
+        "picture":"images/xDark.jpg",
+        "story":"You wander around and find an X on the ground and can see the ship out in the distance. What do you do?",
+        "number":"Page 21",
+        "button":[
+            {"text":"Dig", "pageNumber": "Page 15"},
+            {"text":"Go Back to the Ship", "pageNumber": "Page 14"}
+            ]
+    },
+     {    
+        "title":"Fire",
+        "picture":"images/fire.jpg",
+        "story":"You make a fire and attract attention from a nearby tribe. They come and attack you.",
+        "number":"Page 22",
+        "button":[
+           {"text":"Start Over", "pageNumber": "Page 1"}
+            ]
+    }
+]
